@@ -217,7 +217,7 @@ module Pod
     end
 
     def podfile_path
-      'Example/Podfile'
+      'templates/ios/Example/Podfile'
     end
 
     #----------------------------------------#
