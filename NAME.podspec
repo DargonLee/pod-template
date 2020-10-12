@@ -25,10 +25,10 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '${USER_NAME}' => '${USER_EMAIL}' }
-  s.source           = { :git => 'https://github.com/${USER_NAME}/${POD_NAME}.git', :tag => s.version.to_s }
+  s.source           = { :git => 'ssh://${USER_NAME}@gerrit.zhizhangyi.com:29418/ios/vssi/${POD_NAME}', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
+  s.static_framework = true
+  s.ios.deployment_target = '9.0'
 
   s.source_files = '${POD_NAME}/Classes/**/*'
   
