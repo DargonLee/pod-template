@@ -1,8 +1,9 @@
 {
 	"link_target":[
 		{
-			"name":"example",
-			"url" :""
+			"target_name": "emmlib",
+			"name":"MBProgressHUD",
+			"version" :"1.0.0"
 		}
 	]
 }
