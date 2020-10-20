@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = '${POD_NAME}'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of ${POD_NAME}.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,11 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
+  # 依赖的系统library，这里是指系统的类似libz.tbd、libxml2.tbd这类的系统库
+  # s.ios.library = 'z' // 单个
+  # s.ios.libraries = 'z','c++' // 多个
+
+  # 依赖的系统frameworks
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'Common'
 end
